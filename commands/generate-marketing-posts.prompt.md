@@ -1,5 +1,5 @@
 ---
-name: co-maintainer-generate-marketing-posts
+name: generate-marketing-posts
 description: "Generate 5-10 short social media posts to promote a locally checked out repo/project"
 agent: co-maintainer
 ---

@@ -1,5 +1,5 @@
 ---
-name: co-maintainer-gh-pr-review
+name: gh-pr-review
 description: "Perform a full PR review for the for a given GitHub PR."
 agent: co-maintainer
 ---
