@@ -1,6 +1,7 @@
 ---
 name: gh-pr-review
 description: "Review pull request for a given PR from GitHub in TypeScript or C# codebases. Use when: reviewing PR changes locally, checking code consistency with repo patterns, detecting code duplication, producing structured PR feedback with verdict."
+user-invocable: false
 ---
 
 # PR Review Skill
@@ -46,6 +47,10 @@ Structure your review response as follows:
 
 One-paragraph overview of what the PR does and overall assessment.
 
+### Verdict
+
+A short final assessment: **Looks Good**, **Minor Issues**, or **Needs Changes** — with a brief justification.
+
 ### Consistency Issues
 
 Numbered list of places where the code deviates from established repo patterns. For each:
@@ -65,7 +70,3 @@ Numbered list of logic that duplicates existing code. For each:
 ### Other Observations
 
 Any additional feedback: edge cases, missing tests, unclear naming, documentation gaps.
-
-### Verdict
-
-A short final assessment: **Looks Good**, **Minor Issues**, or **Needs Changes** — with a brief justification.

@@ -1,6 +1,7 @@
 ---
 name: generate-marketing-posts
 description: "Generate 5-10 short social media posts to promote a given locally checked out repo/project"
+user-invocable: false
 ---
 
 # Generate Marketing Posts Skill
